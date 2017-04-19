@@ -15,7 +15,9 @@
         android:id="@+id/linearlayout"
         android:layout_alignBottom="@id/viewPager"
         android:layout_width="match_parent"
-        android:layout_height="50dp">
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:background="#327423">
 
     </LinearLayout>
 

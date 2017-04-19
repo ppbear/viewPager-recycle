@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void run() {
                 while (!isFinish) {
-                    SystemClock.sleep(2000);
+                    SystemClock.sleep(4000);
                     runOnUiThread(new Runnable() {
                         @Override
                         public void run() {
@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
             ims.add(imageView);
 
             view = new View(this);
-            params = new LinearLayout.LayoutParams(5, 5);
+            params = new LinearLayout.LayoutParams(10, 10);
             params.leftMargin = 10;
             view.setBackgroundResource(R.drawable.dot);
             view.setLayoutParams(params);
@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public void onPageScrollStateChanged(int state) {
-
+            
         }
     }
 
